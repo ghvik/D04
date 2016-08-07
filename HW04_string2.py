@@ -116,7 +116,6 @@ def main():
 
     print()
     print('not_bad')
-    test(not_bad("bad"), "bad")
     test(not_bad('This movie is not so bad'), 'This movie is good')
     test(not_bad('This dinner is not that bad!'), 'This dinner is good!')
     test(not_bad('This tea is not hot'), 'This tea is not hot')
